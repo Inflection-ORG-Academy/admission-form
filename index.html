@@ -2,9 +2,167 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Student Admission Form</title>
 </head>
 <body>
-    <h1>My First Git Class</h1>
+    <div id="header" title="Form Title">
+        <h1>Inflection ORG Pvt Ltd</h1>
+        <h2>Empowering Education & Self-Employment</h2>
+        <hr/>
+        <h3>Registration Form</h3>
+
+    </div>
+
+    <form>
+        <!-- Date Input -->
+            <div id="input-parenet">
+                <label>Date*</label>
+                <input required type="date"/>
+            </div>
+            <!-- Student Full Name -->
+            <div id="input-parenet">
+                <label>Full Name*</label>
+                <input required type="text"/>
+            </div>
+            <!-- Class -->
+            <div id="input-parenet">
+                <label>Class*</label>
+                <select>
+                    <option>Choose Your Class</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>UG(BA, BSc, BCA)</option>
+                    <option>PG(MA, MSc, MCA)</option>
+                </select>
+            </div>
+        
+            <!-- Subject/Stream -->
+            <div id="input-parenet">
+                <label>Subject/Stream*</label>
+                <input required type="text"/>
+            </div>
+            <!-- Father Name -->
+            <div id="input-parenet">
+                <label>Father Name*</label>
+                <input required type="text"/>
+            </div>
+            <!-- Mother Name -->
+            <div id="input-parenet">
+                <label>Mother Name*</label>
+                <input required type="text"/>
+            </div>
+            <!-- Father Occupation -->
+            <div id="input-parenet">
+                <label>Father Occupation(Optional)</label>
+                <input type="text"/>
+            </div>
+            <!-- DOB -->
+            <div id="input-parenet">
+                <label>DOB*</label>
+                <input required type="date"/>
+            </div>
+            <!-- Gender -->
+            <div id="input-parenet">
+                <label>Gender*</label>
+                <select>
+                    <option>Choose Your Gender</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Others</option>
+                </select>
+            </div>
+            <!-- Mobile Name -->
+            <div id="input-parenet">
+                <label>Mobile Number*</label>
+                <input required type="Number"/>
+            </div>
+
+            <!-- Alternate Mobile Name -->
+            <div id="input-parenet">
+                <label>Alternate Mobile Number(Optional)</label>
+                <input type="Number"/>
+            </div>
+
+            <!-- Email -->
+            <div id="input-parenet">
+                <label>E-mail</label>
+                <input type="email"/>
+            </div>
+            <!-- Address -->
+            <div id="input-parenet">
+                <label>Address*</label>
+                <input required type="text"/>
+            </div>
+            <!-- City -->
+            <div id="input-parenet">
+                <label>City*</label>
+                <input required type="text"/>
+            </div>
+            <!-- Pin Code -->
+            <div id="input-parenet">
+                <label>Pin Code*</label>
+                <input required type="number"/>
+            </div>
+            <!-- State -->
+            <div id="input-parenet">
+                <label>State*</label>
+                <input required type="text"/>
+            </div>
+            <!-- Religion -->
+            <div id="input-parenet">
+                <label>Religion*</label>
+                <input required type="text"/>
+            </div>
+            <!-- Nationality -->
+            <div id="input-parenet">
+                <label>Nationality*</label>
+                <input required type="text" value="Indian" readonly/>
+            </div>
+            <!-- State -->
+            <div id="input-parenet">
+                <label>State*</label>
+                <input required type="text"/>
+            </div>
+            <!-- School/College Name -->
+            <div id="input-parenet">
+                <label>School/College Name*</label>
+                <input required type="text"/>
+            </div>
+    </form>
+<!-- Declaration -->
+    <div>
+        <p>Declaration</p>
+        <p>I here by declare that the information provided in this form is true and accurate to the best of my knowedge. I unstand and agree to abide by the term and others condition mentioned on the website link <a href="www.inflection.org.in/terms_and_conditions" target="_blank">"www.inflection.org.in/terms_and_conditions".</a></p>
+        
+        <!-- Singnatures Section -->
+        <div>
+           <p>Student Sign</p>
+           <p>Authority Sign</p>
+        </div>
+    </div>
+    <hr/>
+    <p>Address: Kanya Purv Madhyamik Vidyalay manaurveer Khamaria Bhadohi-221306</p>
+    <div>
+        <a>contact:7395081624</a>
+        <a>email:team@inflection.org.in</a>
+        <a>website:www.inflection.org.in</a>
+    </div>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #header{
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
 </body>
 </html>
